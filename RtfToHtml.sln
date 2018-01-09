@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RtfToHtml", "RtfToHtml\RtfToHtml.csproj", "{77FE8DD1-30B8-4ABE-AA06-AB475E03DDFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F6F92E02-6338-41FD-92E9-EAE9FF75CBB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalysisTools", "TextAnalysisTools\TextAnalysisTools.csproj", "{11E8D180-A18A-4E4B-B054-A9DE60DC9021}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FE8DD1-30B8-4ABE-AA06-AB475E03DDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FE8DD1-30B8-4ABE-AA06-AB475E03DDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FE8DD1-30B8-4ABE-AA06-AB475E03DDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FE8DD1-30B8-4ABE-AA06-AB475E03DDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F92E02-6338-41FD-92E9-EAE9FF75CBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F92E02-6338-41FD-92E9-EAE9FF75CBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F92E02-6338-41FD-92E9-EAE9FF75CBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F92E02-6338-41FD-92E9-EAE9FF75CBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E8D180-A18A-4E4B-B054-A9DE60DC9021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E8D180-A18A-4E4B-B054-A9DE60DC9021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E8D180-A18A-4E4B-B054-A9DE60DC9021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E8D180-A18A-4E4B-B054-A9DE60DC9021}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

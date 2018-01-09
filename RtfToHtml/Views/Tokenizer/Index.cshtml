@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/App/convertission.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @{
+        ViewBag.Title = "Index";
+    }
+    <h1 ng-show="fixe">RtfToHtml</h1>
+    
+
+
+    </head>
+<body ng-app="app" ng-controller="controller">
+   <form>
+       <table>
+           <thead>
+           <td><input type="file" id="file" name="file" /></td>
+       <td>&nbsp;</td>
+           <td><input type="submit" value="Analyse" ng-click="html()" /></td>
+       <td>&nbsp;</td>
+           <td><input type="reset" ng-click="clean()" value="Annuler" /></td>
+           <td></td>     
+       <td></td>
+       </thead>
+       
+       </table>
+        </form>
+     
+    
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
