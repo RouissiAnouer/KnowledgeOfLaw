@@ -4,3 +4,6 @@ personne-machine, mais aussi, dans les domaines de la traduction automatique, de
 Les recherches effectuées dans ces différents domaines s'inscrivent dans le cadre général de la linguistique informatique et des sciences
 cognitives. Cette discipline a pour objectif de définir des outils informatiques pour l'automatisation des différents traitements
 linguistiques tels que l'analyse lexicale et l'analyse syntaxique, la traduction et la génération de texte.
+
+
+NB: utiliser le fichier [Fichier pour test/coddroitenrg.txt] comme une fichier de test.
